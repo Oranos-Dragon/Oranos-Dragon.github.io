@@ -1,6 +1,10 @@
 body {
-    background-image: url("/media/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+  background-image: url("/media/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.base-background {
+  background-color: rgba(32, 37, 41, 0.75);
+}
