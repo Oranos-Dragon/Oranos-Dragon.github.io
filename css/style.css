@@ -8,3 +8,16 @@ body {
 .base-background {
   background-color: rgba(32, 37, 41, 0.75);
 }
+
+.footer {  
+  position: fixed; 
+  bottom:0%; 
+}
+
+.link-hover:hover {
+  font-weight: bold;
+}
+
+.bottom {
+  margin-bottom: 150px;
+}
