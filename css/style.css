@@ -25,3 +25,8 @@ body {
 .height {
   height: 500px
 }
+
+.dropdown-item:hover {
+    background-color: #df4759
+
+}
