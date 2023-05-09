@@ -21,3 +21,7 @@ body {
 .bottom {
   margin-bottom: 150px;
 }
+
+.height {
+  height: 500px
+}
