@@ -14,8 +14,8 @@ body {
   background-color: rgba(32, 37, 41, 0.75);
 }
 
-.footer {  
-  bottom:0%; 
+.footer {
+  bottom: 0%;
 }
 
 .link-hover:hover {
@@ -31,10 +31,22 @@ body {
 }
 
 .dropdown-item:hover {
-    background-color: #df4759
+  background-color: #df4759
 }
 
-nav {
+.navbar-side {
   position: fixed;
-  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar-side {
+    width: 100px;
+    position: fixed;
+    flex-direction: column;
+    height: 100%;
+  }
+  .margin-left {
+    margin-left: 110px;
+  }
 }
