@@ -37,12 +37,14 @@ function scrollFunction() {
     if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
         navbar.classList.add("navbar-side");
         navList.classList.add("flex-column");
+        main[0].style.paddingTop = "70px"
         for (let i = 0; i < main.length; i++) {
             main[i].classList.add("margin-left");
         }
     } else {
         navbar.classList.remove("navbar-side");
         navList.classList.remove("flex-column");
+        main[0].style.paddingTop = "0px"
         for (let i = 0; i < main.length; i++) {
             main[i].classList.remove("margin-left");
         }
