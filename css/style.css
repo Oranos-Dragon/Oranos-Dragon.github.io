@@ -15,7 +15,6 @@ body {
 }
 
 .footer {  
-  position: fixed; 
   bottom:0%; 
 }
 
@@ -24,17 +23,18 @@ body {
 }
 
 .bottom {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .height {
-  height: 500px
+  height: 600px
 }
 
 .dropdown-item:hover {
     background-color: #df4759
 }
 
-.project-img {
-  width: 100px;
+nav {
+  position: fixed;
+  height: 100%;
 }
