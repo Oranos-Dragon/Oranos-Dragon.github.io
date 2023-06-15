@@ -16,6 +16,7 @@ aboutMe.addEventListener("click", () => {
         window.scrollTo(0, 600)
     }
 })
+
 contact.addEventListener("click", () => {
     if (screen.width > 1000) {
         window.scrollTo(0, 1000)
@@ -24,6 +25,7 @@ contact.addEventListener("click", () => {
         window.scrollTo(0, 1200)
     }
 })
+
 projects.addEventListener("click", () => {
     if (screen.width > 1000) {
         window.scrollTo(0, 1200)
@@ -50,3 +52,4 @@ function scrollFunction() {
         }
     }
 }
+
