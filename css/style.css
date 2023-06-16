@@ -45,7 +45,10 @@ body {
     position: fixed;
     flex-direction: column;
     height: 100%;
-  }
+  } 
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 600px) {
   .margin-left {
     margin-left: 110px;
   }
